@@ -1,0 +1,18 @@
+{
+  "language": "auto",
+  "output_language": "auto",
+  "whisper_model": "large-v3",
+  "short_min_sec": 20,
+  "short_max_sec": 59,
+  "clips_per_video": 5,
+  "layout": "blur",
+  "font": "Arial",
+  "privacy": "private",
+  "schedule_every_hours": 4,
+  "max_uploads_per_day": 6,
+  "category_id": "28",
+  "channels_to_watch": [],
+  "trend_region": "",
+  "claude_model": "claude-sonnet-5-5",
+  "cookies": ""
+}

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# hunter record|download|transcribe|short|trends|upload|auto [argumentlar]
+D="$(cd "$(dirname "$0")" && pwd)"
+cmd="$1"; shift || true
+if [ -z "$cmd" ]; then echo "Ishlatish: hunter record|download|transcribe|short|trends|upload|auto [argumentlar]"; exit 1; fi
+cd "$D/scripts" && exec "$D/.venv/bin/python" "hunter_$cmd.py" "$@"

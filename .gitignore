@@ -1,0 +1,22 @@
+# Maxfiy fayllar — hech qachon yuklamang
+.env
+client_secret*.json
+token.json
+cookies*.txt
+# Ish fayllari
+.venv/
+__pycache__/
+*.pyc
+downloads/
+live/
+shorts/
+queue/
+trends/
+state.json
+uploads.jsonl
+downloaded.txt
+config.json
+*.mp4
+*.ts
+*.words.json
+*.transcript.txt
